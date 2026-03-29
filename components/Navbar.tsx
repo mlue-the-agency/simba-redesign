@@ -19,12 +19,12 @@ const Navbar = () => {
 
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-2">
-              <Mail className="size-4 text-blue-500" />
+              <Mail className="size-4 text-primary" />
               <h3 className="text-sm text-white">support@simbatv.co.ug</h3>
             </div>
 
             <div className="flex items-center gap-2">
-              <Phone className="size-4 text-blue-500" />
+              <Phone className="size-4 text-primary" />
               <h3 className="text-sm text-white">(256) 200 777 220</h3>
             </div>
           </div>
@@ -35,9 +35,7 @@ const Navbar = () => {
         <nav className="mx-auto w-11/12 flex items-center justify-between">
           <div>
             <Link href={"/"}>
-              <h3 className="font-extrabold text-xl uppercase text-primary">
-                Simba
-              </h3>
+              <h3 className="font-extrabold text-xl uppercase">Simba</h3>
             </Link>
           </div>
 
