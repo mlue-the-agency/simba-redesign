@@ -10,7 +10,7 @@ const Home = () => {
     <main>
       <Hero />
 
-      <section className="bg-dark">
+      <section className="bg-background">
         <div className="mx-auto w-11/12 py-18 space-y-6">
           <h1 className="text-center mx-auto text-5xl w-8/12 font-bold text-white">
             Experience the Power of Simba Fibre
