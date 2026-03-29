@@ -10,7 +10,7 @@ const CustomButton = ({
 }) => {
   return (
     <button
-      className={`border-0 outline-none bg-primary text-white py-2 px-3 rounded-lg text-sm ${className} cursor-pointer hover:bg-blue-600/80 duration-100 ease-in-out delay-100`}
+      className={`border-0 outline-none bg-primary text-white py-2 px-3 rounded-lg text-sm ${className} cursor-pointer hover:bg-primary/80 duration-100 ease-in-out delay-100`}
       type="button"
     >
       {text}
